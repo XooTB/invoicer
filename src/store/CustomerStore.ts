@@ -13,7 +13,7 @@ const CustomerStore = create<CustomerStore>((set) => ({
   lastName: "",
   email: "",
   phone: "",
-  setInfo: (key, value) => set((state) => ({ [key]: value })),
+  setInfo: (key, value) => set(() => ({ [key]: value })),
 }));
 
 export default CustomerStore;

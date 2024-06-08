@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import Modal from "./components/Modal";
 
 function App() {
-  const { cars, isLoading, error, getCars } = useGetCars();
+  const { getCars } = useGetCars();
   const [toggle, setToggle] = useState<boolean>(false);
 
   useEffect(() => {

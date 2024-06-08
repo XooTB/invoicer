@@ -7,7 +7,7 @@ export default function AdditionalForm() {
     { name: "Rental Tax", price: 20 },
   ];
 
-  const { addCharge, removeCharge, additionalCharges } = AdditionalStore();
+  const { addCharge, removeCharge } = AdditionalStore();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { id, checked } = e.target;

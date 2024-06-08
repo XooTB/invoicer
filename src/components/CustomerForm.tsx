@@ -1,7 +1,7 @@
 import CustomerStore from "../store/CustomerStore";
 
 export default function () {
-  const { setInfo, firstName, lastName, email, phone } = CustomerStore();
+  const { setInfo } = CustomerStore();
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setInfo(name, value);

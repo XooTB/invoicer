@@ -11,7 +11,7 @@ const NameStore = create<NameStore>((set) => ({
   name: "",
   email: "",
   phone: "",
-  setVal: (key, value) => set((state) => ({ [key]: value })),
+  setVal: (key, value) => set(() => ({ [key]: value })),
 }));
 
 export default NameStore;

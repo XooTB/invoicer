@@ -19,7 +19,7 @@ function splitTime(hours: number) {
 }
 
 export default function ReservationForm() {
-  const { setVal, id, pickupDate, returnDate, duration } = reservationStore();
+  const { setVal, pickupDate, returnDate, duration } = reservationStore();
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
