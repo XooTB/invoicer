@@ -1,6 +1,6 @@
-# Invoice Generator App
+# Invoicer
 
-The Invoice Generator App is a software application that generates invoices for a car rental service. It automates the process of creating professional-looking invoices, saving time and effort for the car rental business.
+Invoicer is an App that generates invoices for a car rental service. It automates the process of creating professional-looking invoices, saving time and effort for the car rental business.
 
 ## Features
 
