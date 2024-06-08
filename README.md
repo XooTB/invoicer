@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Invoice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Invoice Generator App is a software application that generates invoices for a car rental service. It automates the process of creating professional-looking invoices, saving time and effort for the car rental business.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Invoice Generation**: The app allows users to generate invoices for car rentals, including details such as customer information, rental duration, rental fees, and any additional charges.
+- **Customization**: Users can customize the appearance of the generated invoices by adding their company logo, contact information, and other branding elements.
+- **Invoice Management**: The app provides functionality to manage and organize generated invoices, including the ability to view, edit, and delete invoices.
+- **Export and Printing**: Users can export invoices in various formats (e.g., PDF, CSV) and print them directly from the app.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository: `git clone https://github.com/xootb/invoicer.git`
+2. Install dependencies: `npm install`
+3. Configure the app: Update the configuration file with your car rental service details.
+4. Start the app: `npm start`
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Launch the app.
+2. Fill in the required information for the invoice, such as customer details, rental duration, and any additional charges.
+3. Click on the "Generate Invoice" button to create the invoice.
+4. Review the generated invoice and make any necessary edits.
+5. Save or export the invoice in your preferred format.
+6. Manage and organize your invoices using the provided functionality.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the Invoice Generator App, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or support, please contact us at [email protected]
